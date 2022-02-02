@@ -6,13 +6,13 @@ class TestCalc:
         self.calc = Calculator
 
     def test_multiply_calculate_correctly(self):
-        assert self.calc.multiply(self, 3, 3) == 9
+        assert self.calc.multiply(self, 5, 4) == 20
 
     def test_division_calculate_correctly(self):
-        assert self.calc.division(self, 10, 2) == 5
+        assert self.calc.division(self, 12, 2) == 6
 
     def test_subtraction_calculate_correctly(self):
-        assert self.calc.subtraction(self, 6, 4) == 2
+        assert self.calc.subtraction(self, 7, 3) == 4
 
     def test_adding_calculate_correctly(self):
-        assert self.calc.adding(self, 4, 7) == 11
+        assert self.calc.adding(self, 6, 9) == 15
